@@ -2311,10 +2311,10 @@ function deepSwaggerModelsTreeTableRefParameter(parentRefp, definitions, deepDef
         if (KUtils.checkUndefined(def)) {
           // https://gitee.com/xiaoym/knife4j/issues/I51G01
           // 获取当前Schema的介绍信息,如果存在，就赋值
-          let tmpDescriptionValue = KUtils.propValue('description', def, null);
-          if (tmpDescriptionValue != null) {
-            parentRefp.description = tmpDescriptionValue;
-          }
+          // let tmpDescriptionValue = KUtils.propValue('description', def, null);
+          // if (tmpDescriptionValue != null) {
+          //   parentRefp.description = tmpDescriptionValue;
+          // }
           if (def.hasOwnProperty('properties')) {
             var props = def['properties'];
             // 获取required属性
