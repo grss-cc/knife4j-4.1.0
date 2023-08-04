@@ -1,0 +1,1 @@
+mvn versions:set -DnewVersion=4.1.0-SNAPSHOT -DgenerateBackupPoms=false
